@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/carf-mcp",
+  "title": "CARF (Recursos Fiscais)",
+  "description": "Brazilian tax appeals (CARF): search rulings by thesis for free, plus taxpayer proceedings by CPF or",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/carf-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_carf"
+    }
+  ]
+}
